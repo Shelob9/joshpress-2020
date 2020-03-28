@@ -4,6 +4,10 @@
 	"version": "0.0.1",
 	"dependencies": {
 		"express": "^4.17.1",
-		"express-http-proxy": "^1.6.0"
+		"express-http-proxy": "^1.6.0",
+		"nodemon": "^2.0.2"
+	},
+	"scripts": {
+		"start": "nodemon server.js"
 	}
 }

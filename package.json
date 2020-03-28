@@ -2,5 +2,14 @@
 	"name": "joshpress-2020",
 	"private": true,
 	"version": "0.0.1",
-    "workspaces": ["new-site", "server"]
+	"workspaces": [
+		"new-site",
+		"server"
+	],
+	"scripts": {
+		"start": "yarn wsrun start"
+	},
+	"devDependencies": {
+		"wsrun": "^5.2.0"
+	}
 }
