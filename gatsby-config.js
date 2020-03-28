@@ -11,7 +11,7 @@ module.exports = {
   siteMetadata: {
     title: `Josh Pollock`,
     author: `Josh Pollock`,
-    description: `My site description...`,
+    description: `Just another internet website.`,
     social: [
       {
         name: `twitter`,
