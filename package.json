@@ -1,15 +1,17 @@
 {
-	"name": "joshpress-2020",
-	"private": true,
-	"version": "0.0.1",
-	"workspaces": [
-		"new-site",
-		"server"
-	],
-	"scripts": {
-		"start": "yarn wsrun start"
-	},
-	"devDependencies": {
-		"wsrun": "^5.2.0"
-	}
+  "name": "new-site",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "develop": "gatsby develop -p 5000",
+    "start": "gatsby develop -p 5000",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.19.45",
+    "gatsby-theme-blog": "^1.3.30",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
 }
