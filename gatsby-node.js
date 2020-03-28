@@ -1,4 +1,4 @@
-import legacyUrls from "./legacyUrls"
+const legacyUrls = require("./legacyUrls")
 exports.createPages = ({ graphql, actions }) => {
   const { createRedirect } = actions
   legacyUrls.forEach(uri => {
