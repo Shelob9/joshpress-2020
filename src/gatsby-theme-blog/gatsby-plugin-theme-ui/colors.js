@@ -11,7 +11,7 @@ import defaultThemeColors from "gatsby-theme-blog/src/gatsby-plugin-theme-ui/col
 // const lightBlue = `#66E0FF`
 // const blueGray = `#282c35`
 
-const white = "#EEEEEE"
+const white = "#fffcfc"
 const black = "#585858"
 export default merge(defaultThemeColors, {
   text: black,
