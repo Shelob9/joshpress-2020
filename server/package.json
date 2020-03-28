@@ -1,0 +1,9 @@
+{
+	"name": "server",
+	"private": true,
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-http-proxy": "^1.6.0"
+	}
+}
