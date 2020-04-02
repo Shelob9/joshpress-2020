@@ -1,3 +1,5 @@
+var proxy = require("http-proxy-middleware")
+
 module.exports = {
   plugins: [
     {
