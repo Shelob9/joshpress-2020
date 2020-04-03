@@ -1,11 +1,15 @@
-var proxy = require("http-proxy-middleware")
-
 module.exports = {
   plugins: [
     {
       resolve: `gatsby-theme-blog`,
       options: {
         basePath: "/blog",
+      },
+    },
+    {
+      resolve: `gatsby-source-devto`,
+      options: {
+        username: `shelob9`,
       },
     },
   ],
