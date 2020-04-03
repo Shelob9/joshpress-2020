@@ -13,41 +13,57 @@ export default ({ children, ...props }) => (
           py: 4,
         })}
       >
-        <Styled.p>Hi.</Styled.p>
-        <section>
-          <Styled.p>
-            {" "}
-            Praesent a urna sit amet erat pretium euismod. Integer hendrerit
-            mollis diam, faucibus facilisis arcu dignissim non. Duis euismod ex
-            arcu, quis mattis nibh consequat vitae. Cras ultricies, turpis ut
-            pulvinar dictum,{" "}
+        <section id="about">
+          <Styled.h2>About Me</Styled.h2>
+          <Styled.p
+            css={css({
+              fontSize: "2em",
+            })}
+          >
+            I make commerical open source products, mainly with WordPress.
           </Styled.p>
-        </section>
-        <section>
-          <Styled.h2>Work</Styled.h2>
-
-          <dl>
-            <dt>Saturday Drive: VP Of Engineering Experience</dt>
-            <dd>
-              Enginering team lead, helping build Ninja Forms and Caldera Forms
-              WordPress plugins and tranistion to remote work.
-            </dd>
-            <dd>2019-Present</dd>
-            <dt>CalderaWP: Co-Owner/ Lead Developer</dt>
-            <dd>...</dd>
-            <dd>Founded: 2015. Aquired: 2019</dd>
-            <dt>Pods Framework: Community Manager/ Developer</dt>
-            <dd>
-              Developed features, fixed bugs, wrote documentation and offered
-              support for the free WordPress plugin Pods. Also, created a
-              community fundraising program to fund the project.
-            </dd>
-            <dd>2014-2015</dd>
-          </dl>
-        </section>
-        <section>
-          <Styled.h2>Writing</Styled.h2>
-
+          <Styled.p>
+            Right now, I help build{" "}
+            <a href="https://ninjaforms.com">Ninja Forms</a>,
+            <a href="https://calderaforms.com">Caldera Forms</a> and{" "}
+            <a href="https://sendwp.com">SendWP</a> at{" "}
+            <a href="https://SaturdayDrive.com">Saturday Drive</a>.
+          </Styled.p>
+          <Styled.p>
+            Since 2014, I've been a part of the WordPress open-source community.
+            I've contributed to WordPress core, spoke at over twnty WordCamps,
+            including WordCamp US and written a ton of tutorials about WordPress
+            development.
+          </Styled.p>
+          <Styled.h3>
+            Plugins, Companies and Communites I've Helped Build
+          </Styled.h3>
+          <Styled.h4>Pods Framework</Styled.h4>
+          <Styled.p>
+            I was the community manager, and a developer for the free plugin{" "}
+            <a href="https://wordpress.org/plugins/pods/">Pods</a>. In addition
+            to contributing to development, documentation and technical support,
+            I helped created{" "}
+            <a href="https://friends.pods.io/">Friends of Pods</a> -- community
+            fundraising program to fund the project.
+          </Styled.p>
+          <Styled.h4>CalderaWP</Styled.h4>
+          <Styled.p>
+            I was a co-owner and lead developer for CalderaWP. Our WordPress
+            plugin <a href="https://calderaforms.com">Caldera Forms</a> grew to
+            over 200,000 active installs. CalderaWP was aquired in 2019 by our
+            favorite competitors: Saturday Drive, the creators of Ninja Forms.
+          </Styled.p>
+          <Styled.h4>Saturday Drive</Styled.h4>
+          <Styled.p>
+            After the acquisition of CalderaWP I joined the team at Saturday
+            Drive, as "VP Of Engineering" experience. I'm focused on helping our
+            team move to distributed work and modernizing the engineering
+            process.
+          </Styled.p>
+          <Styled.h2>
+            I've Also Written Quite A Bit About Writing Code
+          </Styled.h2>
           <dl>
             <dt>Torque Mag: A WPEngine Publication</dt>
             <dd>
@@ -76,19 +92,8 @@ export default ({ children, ...props }) => (
             </dd>
           </dl>
         </section>
-        <section>
-          <Styled.h2>Social Media</Styled.h2>
-          <ul>
-            <li>
-              <a href="https://twitter.com/josh412">Twitter</a>
-            </li>
-            <li>
-              <a href="https://github.com/shelob9">Githun</a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/pollockjosh/">Instagram</a>
-            </li>
-          </ul>
+        <section id="recent-posts">
+          <Styled.h2>Recent Posts</Styled.h2>
         </section>
       </div>
     </div>
