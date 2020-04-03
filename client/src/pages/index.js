@@ -5,10 +5,10 @@ import PostsStack from "../PostsStack"
 import { graphql } from "gatsby"
 
 export default ({ children, data, ...props }) => {
-  const { allDevNode } = data
-  console.log(allDevNode)
-
-  const recentPosts =
+  const { allDevNode, allBlogPost } = data
+  console.log(allBlogPost)
+  let recentPosts = []
+  const devToPosts =
     allDevNode.hasOwnProperty("nodes") && allDevNode.nodes.length
       ? allDevNode.nodes.map(node => {
           return {
@@ -20,6 +20,22 @@ export default ({ children, data, ...props }) => {
           }
         })
       : []
+
+  const blogPosts =
+    allBlogPost.hasOwnProperty("nodes") && allBlogPost.nodes.length
+      ? allBlogPost.nodes.map(node => {
+          return {
+            id: node.id,
+            title: node.title,
+            excerpt: node.excerpt,
+            image: "",
+            link: `blog/${node.slug}`,
+          }
+        })
+      : []
+
+  recentPosts = [...devToPosts, ...blogPosts]
+  recentPosts = recentPosts.sort((a, b) => b.date > a.date)
 
   return (
     <Styled.root>
@@ -124,7 +140,15 @@ export default ({ children, data, ...props }) => {
 }
 
 export const query = graphql`
-  query DevToPosts {
+  query blogPosts {
+    allBlogPost(limit: 6) {
+      nodes {
+        id
+        slug
+        excerpt
+        title
+      }
+    }
     allDevNode(limit: 6) {
       nodes {
         id
