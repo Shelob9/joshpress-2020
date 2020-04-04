@@ -17,7 +17,7 @@ Source for JoshPress.net.
 
 ## Overview
 
-This repo uses [Yarn 1.x workspaces](https://classic.yarnpkg.com/en/docs/workspaces). There are two workspaces:
+This repo has two components:
 
 - `client`
 
