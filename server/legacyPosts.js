@@ -307,12 +307,7 @@ module.exports = [
 	"/caldera-forms-test/",
 	"/business-card/",
 	"/rest-api/",
-	"/exceed-expectations-rest-api-course/",
-	"/writing/",
-	"/blog/",
 	"/one-on-one/",
-	"/contact/",
-	"/josh/",
 	"/all-of-the-urls-i-opened-on-my-phone-during-larcon-2019-so-i-would-read-them-later/",
 	"/testing-javascript-the-wordpress-way/",
 	"/two-rules-of-javascript-async-await/",
@@ -330,5 +325,5 @@ module.exports = [
 	"/quick-thoughts-loopconf/",
 	"/2016-ftw/",
 	"/fun-challenges-recent-caldera-forms-updates/",
-	"/test-cf-calc-fields/"
+	"/test-cf-calc-fields/",
 ];
