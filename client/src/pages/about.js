@@ -1,7 +1,6 @@
 import React from "react"
 import { css, Styled } from "theme-ui"
 import Header from "gatsby-theme-blog/src/components/header"
-import PostsStack from "../PostsStack"
 
 export default ({ children, ...props }) => {
   return (

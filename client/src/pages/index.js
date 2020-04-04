@@ -5,18 +5,21 @@ import PostsStack from "../PostsStack"
 import { graphql } from "gatsby"
 
 export default ({ children, data, ...props }) => {
-  const { allDevNode, allBlogPost } = data
-  console.log(allBlogPost)
+  const { allBlogPost, allDevArticles } = data
+
   let recentPosts = []
   const devToPosts =
-    allDevNode.hasOwnProperty("nodes") && allDevNode.nodes.length
-      ? allDevNode.nodes.map((node) => {
+    allDevArticles.hasOwnProperty("nodes") && allDevArticles.nodes.length
+      ? allDevArticles.nodes.map((node) => {
+          const { article } = node
           return {
-            id: node.id,
-            title: node.frontmatter.title,
-            excerpt: node.frontmatter.description,
-            image: node.frontmatter.cover,
-            link: node.preview,
+            id: article.id,
+            title: article.title,
+            excerpt: article.description,
+            image: article.cover_image,
+            link: article.url,
+            date: article.published_timestamp,
+            internal: false,
           }
         })
       : []
@@ -30,12 +33,16 @@ export default ({ children, data, ...props }) => {
             excerpt: node.excerpt,
             image: "",
             link: `${node.slug}`,
+            date: node.date,
+            internal: true,
           }
         })
       : []
 
   recentPosts = [...devToPosts, ...blogPosts]
-  recentPosts = recentPosts.sort((a, b) => b.date > a.date)
+  recentPosts = recentPosts.sort((a, b) => {
+    return Date.parse(b.date) - Date.parse(a.date)
+  })
 
   return (
     <Styled.root>
@@ -87,17 +94,19 @@ export const query = graphql`
         slug
         excerpt
         title
+        date
       }
     }
-    allDevNode(limit: 6) {
+    allDevArticles(limit: 6) {
       nodes {
-        id
-        frontmatter {
-          title
-          cover
+        article {
           description
+          cover_image
+          id
+          published_timestamp
+          title
+          url
         }
-        preview
       }
     }
   }

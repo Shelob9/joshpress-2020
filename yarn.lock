@@ -2333,7 +2333,7 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.9.1.tgz#7e33d8f7d449b3f673cd72deb9abdc552dbe528e"
   integrity sha512-wMHVg2EOHaMRxbzgFJ9gtjOOCrI80OHLG14rxi28XwOW8ux6IiEbRCGGGqCtdAIg4FQCbW20k9RsT4y3gJlFug==
 
-axios@^0.19.2:
+axios@^0.19.0, axios@^0.19.2:
   version "0.19.2"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
   integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
@@ -6087,6 +6087,14 @@ gatsby-remark-smartypants@^2.2.1:
     retext "^5.0.0"
     retext-smartypants "^3.0.3"
     unist-util-visit "^1.4.1"
+
+gatsby-source-dev@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/gatsby-source-dev/-/gatsby-source-dev-0.1.4.tgz#ef8e696ed9b2ba4919d3cfd36a9fbcfe8db1fff5"
+  integrity sha512-dVZ45kdpNMh3w6z6zEEqjfdDSGplw0mryZSr13wz0SQZz+xgU+CiGRTDL1ukKkHX7NXH9S58OlNeKfdYlqTL5Q==
+  dependencies:
+    axios "^0.19.0"
+    query-string "^6.1.0"
 
 gatsby-source-devto@^1.1.0:
   version "1.1.0"
@@ -10891,7 +10899,7 @@ query-string@^5.0.1:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-query-string@^6.11.1:
+query-string@^6.1.0, query-string@^6.11.1:
   version "6.11.1"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.11.1.tgz#ab021f275d463ce1b61e88f0ce6988b3e8fe7c2c"
   integrity sha512-1ZvJOUl8ifkkBxu2ByVM/8GijMIPx+cef7u3yroO3Ogm4DOdZcF5dcrWTIlSHe3Pg/mtlt6/eFjObDfJureZZA==
