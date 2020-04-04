@@ -5,18 +5,20 @@
 	"main": "index.js",
 	"private": true,
 	"workspaces": [
-		"client",
-		"server"
+		"client"
 	],
 	"scripts": {
 		"start": "yarn wsrun start",
-		"serve": "yarn build:client && cd server && node index.js",
+		"start:server": "nodemon index.js",
+		"serve": "yarn build:client && node index.js",
 		"build:client": "yarn workspace client build"
 	},
 	"keywords": [],
 	"author": "Josh Pollock",
 	"license": "MIT",
 	"dependencies": {
+		"express": "^4.17.1",
+		"nodemon": "^2.0.2",
 		"wsrun": "^5.2.0"
 	}
 }

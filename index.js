@@ -10,7 +10,7 @@ const hasLegacyPost = (path) => {
 };
 app.use(function (req, res, next) {
 	if (hasLegacyPost(req.path)) {
-		res.redirect(302, `https://legacy.joshpress.net${req.path}`);
+		res.redirect(301, `https://legacy.joshpress.net${req.path}`);
 	}
 	next();
 });
@@ -30,7 +30,7 @@ app.listen(port);
 
 // Handles any requests that don't match the ones above
 app.get("*", (req, res) => {
-	res.sendFile(path.join(__dirname + "/client/public/404.html"));
+	res.sendFile(path.join(__dirname + "/client/public/index.html"));
 });
 
 console.log("App is listening on port " + port);
