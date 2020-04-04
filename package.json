@@ -1,18 +1,25 @@
+
 {
 	"name": "joshpress-2020",
-	"version": "0.0.1",
-	"description": "Example of how to deploy a Express.js Netlify app.",
-	"main": "functions/server.js",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"private": true,
+	"workspaces": [
+		"client"
+	],
 	"scripts": {
-		"build": "netlify-lambda build express",
-		"start": "nodemon server-local.js"
+		"start": "yarn wsrun start",
+		"start:server": "nodemon index.js",
+		"serve": "yarn build:client && node index.js",
+		"build:client": "yarn workspace client build"
 	},
-	"dependencies": {},
-	"devDependencies": {
-		"body-parser": "^1.19.0",
+	"keywords": [],
+	"author": "Josh Pollock",
+	"license": "MIT",
+	"dependencies": {
 		"express": "^4.17.1",
-		"netlify-lambda": "^1.6.3",
-		"nodemon": "^1.19.2",
-		"serverless-http": "^2.3.0"
+		"nodemon": "^2.0.2",
+		"wsrun": "^5.2.0"
 	}
 }
