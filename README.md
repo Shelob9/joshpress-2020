@@ -11,9 +11,12 @@ Source for JoshPress.net.
   - `yarn start`
 - Build Gatsby site
   - `yarn build:client`
-- Serve
+- Serve - For Local Testing
   - `yarn serve`
   - Will rebuild site, before starting server on port 5000.
+  - In this mode the server WILL work as a proxy for the site.
+- Serve - On Real Server With Site Already Generated
+  - `node index.js`
 
 ## Overview
 
