@@ -12,7 +12,7 @@ Source for JoshPress.net.
 - Build Gatsby site
   - `yarn build:client`
 - Serve
-  - `yarn start`
+  - `yarn serve`
   - Will rebuild site, before starting server on port 5000.
 
 ## Overview
