@@ -3,14 +3,14 @@ const path = require("path");
 
 const app = express();
 
-const hasLegacyPost = path => {
+const hasLegacyPost = (path) => {
 	path = path.replace(/\/?$/, "/");
 	const legacyPosts = require("./legacyPosts");
 	return legacyPosts.includes(path);
 };
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
 	if (hasLegacyPost(req.path)) {
-		res.redirect(301, `https://legacy.joshpress.net${req.path}`);
+		res.redirect(302, `https://legacy.joshpress.net${req.path}`);
 	}
 	next();
 });
