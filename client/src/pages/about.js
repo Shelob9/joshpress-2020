@@ -1,6 +1,7 @@
 import React from "react"
 import { css, Styled } from "theme-ui"
 import Header from "gatsby-theme-blog/src/components/header"
+import { OtherWritingSection } from "./writing"
 
 export default ({ children, ...props }) => {
   return (
@@ -65,38 +66,8 @@ export default ({ children, ...props }) => {
               process.
             </Styled.p>
           </section>
-          <section id="writing">
-            <Styled.h2>
-              I've Also Written Quite A Bit About Writing Code
-            </Styled.h2>
-            <dl>
-              <dt>Torque Mag: A WPEngine Publication</dt>
-              <dd>
-                For many years I wrote about WordPress development and community
-                for WPEngine's community site.
-              </dd>
-              <dd>
-                <a href="https://torquemag.io/author/joshp/">Torque</a>
-              </dd>
-              <dt>DEV</dt>
-              <dd>
-                Recently I've been sharing short posts about JavaScript,
-                TypeScript, PHP and WordPress development on dev.to
-              </dd>
-              <dd>
-                <a href="https://dev.to/shelob9">My Dev Posts</a>
-              </dd>
-              <dt>Envato Tuts+</dt>
-              <dd>
-                I wrote about WordPress development for Tuts+ many years ago.
-              </dd>
-              <dd>
-                <a href="https://tutsplus.com/authors/josh-pollock">
-                  My Tuts+ Posts
-                </a>
-              </dd>
-            </dl>
-          </section>
+          <OtherWritingSection />
+
           <section id="life">
             <Styled.h2>I'm An Adult Human</Styled.h2>
             <Styled.p>
