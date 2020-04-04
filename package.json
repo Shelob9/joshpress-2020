@@ -1,0 +1,22 @@
+{
+	"name": "joshpress-2020",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"private": true,
+	"workspaces": [
+		"client",
+		"server"
+	],
+	"scripts": {
+		"start": "yarn wsrun start",
+		"serve": "npm run build --prefix client && node index.js",
+		"build:client": "yarn workspace client build"
+	},
+	"keywords": [],
+	"author": "Josh Pollock",
+	"license": "MIT",
+	"dependencies": {
+		"wsrun": "^5.2.0"
+	}
+}

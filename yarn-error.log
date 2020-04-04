@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add {
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\PowerShell\6\;C:\PHP7;C:\composer;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\jpoll\AppData\Local\Microsoft\WindowsApps;C:\Users\jpoll\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jpoll\AppData\Local\atom\bin;C:\Users\jpoll\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\jpoll\AppData\Local\Yarn\bin;C:\Users\jpoll\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\PhpStorm 2019.2.4\bin;;C:\Users\jpoll\AppData\Roaming\npm;C:\Program Files (x86)\FAHClient
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/%7B: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66035:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140564:22)
+      at Request.emit (events.js:311:20)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141536:10)
+      at Request.emit (events.js:311:20)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141458:12)
+      at Object.onceWrapper (events.js:417:28)
+      at IncomingMessage.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+  	"name": "gatsby-express",
+  	"version": "1.0.0",
+  	"description": "",
+  	"main": "index.js",
+  	"scripts": {
+  		"start": "concurrently \"nodemon index.js\" \"cd client && yarn start\"",
+  		"serve": "npm run build --prefix client && node index.js"
+  	},
+  	"keywords": [],
+  	"author": "",
+  	"license": "ISC",
+  	"dependencies": {
+  		"concurrently": "^5.1.0",
+  		"express": "^4.16.4",
+  		"nodemon": "^2.0.2"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
