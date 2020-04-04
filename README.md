@@ -9,6 +9,11 @@ Source for JoshPress.net.
   - `yarn`
 - Start development servers
   - `yarn start`
+- Build Gatsby site
+  - `yarn build:client`
+- Serve
+  - `yarn start`
+  - Will rebuild site, before starting server on port 5000.
 
 ## Overview
 

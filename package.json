@@ -10,7 +10,7 @@
 	],
 	"scripts": {
 		"start": "yarn wsrun start",
-		"serve": "npm run build --prefix client && node index.js",
+		"serve": "yarn build:client && cd server && node index.js",
 		"build:client": "yarn workspace client build"
 	},
 	"keywords": [],
