@@ -51,7 +51,9 @@ export default function PostsStack({ posts }) {
               </a>
             )}
           </Styled.h2>
-          <small sx={{ fontWeight: "bold" }}>{post.date}</small>
+          <small sx={{ fontWeight: "bold" }}>
+            {new Date(post.date).toLocaleDateString()}
+          </small>
           <Styled.p
             css={css({
               m: 0,
