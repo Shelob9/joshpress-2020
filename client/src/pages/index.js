@@ -27,13 +27,18 @@ export default ({ children, ...props }) => {
             </Styled.p>
             <Styled.p>
               Right now, I help build{" "}
-              <a href="https://ninjaforms.com">Ninja Forms</a>,
-              <a href="https://calderaforms.com">Caldera Forms</a> and{" "}
-              <a href="https://sendwp.com">SendWP</a> at{" "}
-              <a href="https://SaturdayDrive.com">Saturday Drive</a>.
+              <Styled.a href="https://ninjaforms.com">Ninja Forms</Styled.a>,
+              <Styled.a href="https://calderaforms.com">Caldera Forms</Styled.a>{" "}
+              and <Styled.a href="https://sendwp.com">SendWP</Styled.a> at{" "}
+              <Styled.a href="https://SaturdayDrive.com">
+                Saturday Drive
+              </Styled.a>
+              .
             </Styled.p>
             <Styled.p>
-              <a href="/about">This website features an about page.</a>
+              <Styled.a href="/about">
+                This website features an about page.
+              </Styled.a>
             </Styled.p>
           </section>
           <section id="writing">
