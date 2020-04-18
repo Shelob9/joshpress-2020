@@ -23,6 +23,8 @@ export default merge(defaultThemeColors, {
       heading: white,
       primary: white,
       background: black,
+      highlight: white,
+      links: white,
     },
   },
 })

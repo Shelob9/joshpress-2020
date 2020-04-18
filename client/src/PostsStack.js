@@ -8,7 +8,7 @@ export default function PostsStack({ posts }) {
         listStyle: "none",
         display: "grid",
         gridGap: 3,
-        gridTemplateColumns: "repeat(auto-fit, minmax(256px, 1fr))",
+        gridTemplateColumns: " repeat(auto-fit, minmax(256px, 1fr))",
         m: 0,
         px: 3,
         py: 4,
