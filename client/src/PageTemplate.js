@@ -1,6 +1,7 @@
 import React from "react"
 import { css, Styled, useColorMode } from "theme-ui"
 import Header from "gatsby-theme-blog/src/components/header"
+
 const white = "#fffcfc"
 const black = "#585858"
 const PageTemplate = (props) => {
@@ -15,7 +16,14 @@ const PageTemplate = (props) => {
 
   const [colorMode] = useColorMode()
   const isDark = colorMode === `dark`
-
+  const a = {
+    color: isDark ? white : black,
+    textDecoration: "dotted",
+    ":hover,:focus": {
+      color: isDark ? "#fffcfc" : "#595959",
+      textDecoration: "underline",
+    },
+  }
   return (
     <React.Fragment>
       <Styled.root>
@@ -26,14 +34,7 @@ const PageTemplate = (props) => {
             mx: `auto`,
             px: 3,
             py: 4,
-            a: {
-              color: isDark ? white : black,
-              textDecoration: "dotted",
-              ":hover,:focus": {
-                color: isDark ? "#fffcfc" : "#595959",
-                textDecoration: "underline",
-              },
-            },
+            a,
           })}
         >
           {Content ? (
@@ -54,6 +55,20 @@ const PageTemplate = (props) => {
               {AfterContent && <AfterContent />}
             </article>
           )}
+          <footer
+            css={css({
+              mx: `auto`,
+              px: 3,
+              py: 4,
+              a,
+            })}
+          >
+            <Styled.p>
+              <a href="https://github.com/Shelob9/joshpress-2020">
+                View Source
+              </a>
+            </Styled.p>
+          </footer>
         </div>
       </Styled.root>
     </React.Fragment>
