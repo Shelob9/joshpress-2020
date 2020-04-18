@@ -1,48 +1,39 @@
 import React from "react"
 import { css, Styled } from "theme-ui"
-import Header from "gatsby-theme-blog/src/components/header"
 import RecentPosts from "../RecentPosts"
+import PageTemplate from "../PageTemplate"
 
 export default ({ children, ...props }) => {
   const page = props.data.allFile.nodes[0].childMarkdownRemark
-  const title = page.frontmatter.title
-  const html = page.html
-  function createMarkup() {
-    return { __html: html }
-  }
   return (
-    <Styled.root>
-      <div>
-        <Header title={title} {...props} />
-        <div
-          css={css({
-            maxWidth: `container`,
-            mx: `auto`,
-            px: 3,
-            py: 4,
-          })}
-        >
-          <section id="about">{title}</section>
-          <div dangerouslySetInnerHTML={createMarkup()} />
+    <PageTemplate
+      {...props}
+      page={page}
+      pageName={"index"}
+      AfterContent={() => (
+        <React.Fragment>
           <section id="writing">
             <Styled.h2>I've Written Quite A Bit About Writing Code</Styled.h2>
-            <RecentPosts />
+            <Styled.h3>Recent Posts</Styled.h3>
+            <RecentPosts total={4} />
+            <Styled.a href={"/writing"}>More</Styled.a>
           </section>
-        </div>
-      </div>
-    </Styled.root>
+        </React.Fragment>
+      )}
+    />
   )
 }
-
 export const query = graphql`
   {
     allFile(filter: { name: { eq: "index" } }) {
       nodes {
+        name
         childMarkdownRemark {
           html
           frontmatter {
             title
             excerpt
+            subTitle
           }
         }
       }

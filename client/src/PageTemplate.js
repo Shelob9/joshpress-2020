@@ -1,5 +1,9 @@
+import React from "react"
+import { css, Styled } from "theme-ui"
+import Header from "gatsby-theme-blog/src/components/header"
+
 const PageTemplate = (props) => {
-  const page = props.data.allFile.nodes[0].childMarkdownRemark
+  const { page, AfterContent } = props
   const title = page.frontmatter.title
   const subTitle = page.frontmatter.subTitle
   const __html = page.html
@@ -31,9 +35,11 @@ const PageTemplate = (props) => {
             </Styled.p>
           )}
           {__html && <div dangerouslySetInnerHTML={createMarkup()} />}
+          {AfterContent && <AfterContent />}
         </article>
       </div>
     </Styled.root>
   )
 }
+
 export default PageTemplate

@@ -5,7 +5,7 @@ import RecentPosts from "../RecentPosts"
 
 export const OtherWritingSection = () => (
   <section id="writing-other">
-    <Styled.h2>I've Also Written Quite A Bit About Writing Code</Styled.h2>
+    <Styled.h2>Other Places I've Written About Code</Styled.h2>
     <dl>
       <dt>Torque Mag: A WPEngine Publication</dt>
       <dd>
@@ -35,7 +35,7 @@ export default ({ children, ...props }) => {
   return (
     <Styled.root>
       <div>
-        <Header title={"Writing"} {...props} />
+        <Header {...props} />
         <div
           css={css({
             maxWidth: `container`,
@@ -45,7 +45,7 @@ export default ({ children, ...props }) => {
           })}
         >
           <section id="writing">
-            <Styled.h2>I've Written Quite A Bit About Writing Code</Styled.h2>
+            <Styled.h2>Writing</Styled.h2>
             <Styled.h3>Recent Posts</Styled.h3>
             <RecentPosts />
           </section>
