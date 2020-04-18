@@ -8,6 +8,7 @@ const hasLegacyPost = (path) => {
 	const legacyPosts = require("./legacyPosts");
 	return legacyPosts.includes(path);
 };
+
 app.use(function (req, res, next) {
 	if (hasLegacyPost(req.path)) {
 		res.redirect(301, `https://legacy.joshpress.net${req.path}`);
