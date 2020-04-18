@@ -1,10 +1,8 @@
 ---
 title: About
 date: 2020-04-01
-excerpt: Josh Pollock: JavaScript & PHP Engineer, Adult Human.           
+excerpt: Josh Pollock - JavaScript & PHP Engineer, Adult Human.
 ---
-
-## I make commerical open source products, mainly with WordPress
 
 Right now, I help build [Ninja Forms](https://ninjaforms.com), [Caldera Forms](https://calderaforms.com) and [SendWP](https://sendwp.com) at [Saturday Drive](https://saturdaydrive.com).
 
@@ -37,3 +35,5 @@ Today, my focus at work is on helping the engineering team responsible for Ninja
 I've been sharing what I've learned about Gitlab CI, React with TypeScript, WordPress block development and other topics on [DEV](https://dev.to/shelob9). I'm also writing [a small ebook on JavaScript testing in and around WordPress.](https://react-wordpress-testing.joshpress.net/)
 
 ## Pull Requests Welcome
+
+This site is open source. [Click here to suggest an edit to this page](https://github.com/Shelob9/joshpress-2020/edit/master/client/content/pages/about.md) -- it's [written in markdown](https://www.markdownguide.org/cheat-sheet/).
