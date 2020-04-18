@@ -43,6 +43,7 @@ module.exports = {
   siteMetadata: {
     title: `Josh Pollock`,
     author: `Josh Pollock`,
+    siteUrl: `https://joshpress.net`,
     description: `Just another internet website.`,
     social: [
       {
