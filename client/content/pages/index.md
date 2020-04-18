@@ -2,6 +2,7 @@
 title: Josh Pollock
 date: 2020-04-01
 excerpt: JavaScript & PHP Engineer, Adult Human.
+subTitle: JavaScript & PHP Engineer, Adult Human.
 ---
 
 ## About Me

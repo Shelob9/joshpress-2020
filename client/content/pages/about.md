@@ -1,6 +1,7 @@
 ---
 title: About
 date: 2020-04-01
+subTitle: I make commerical open source products, mainly with WordPress.
 excerpt: Josh Pollock - JavaScript & PHP Engineer, Adult Human.
 ---
 
