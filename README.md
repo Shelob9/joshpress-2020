@@ -17,6 +17,8 @@ Source for JoshPress.net.
   - In this mode the server WILL work as a proxy for the site.
 - Serve - On Real Server With Site Already Generated
   - `node index.js`
+- Rewrite content from dev.to
+  - `yarn source`
 
 ## Overview
 

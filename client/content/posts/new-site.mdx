@@ -6,7 +6,9 @@ excerpt: This post is about how my new website works
 
 I made a new site. This post, which is probably going to be a perpetual work in progress, is about how it works. One of my goals for this site is to have a place to play with Gatsby and static sites and to share what I've learned.
 
-This site has two components. The first is a Gatsby site, the second is a server built using [Express](http://expressjs.com/). Technically, this is a monorepo, with one package. The root of the repo is an express server and there is a "client" [workspace](https://classic.yarnpkg.com/en/docs/workspaces/) for the Gatsby site. I'm using [Yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) to manage it as a monorepo. The root package has [wsrun](https://github.com/hfour/wsrun) as a dependency, which is a great tool for running commands across multiple workspaces.
+This site has a few components. The first is a Gatsby site, the second is a server built using [Express](http://expressjs.com/). Technically, this is a monorepo, with one package. The root of the repo is an express server and there is a "client" [workspace](https://classic.yarnpkg.com/en/docs/workspaces/) for the Gatsby site. I'm using [Yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) to manage it as a monorepo. The root package has [wsrun](https://github.com/hfour/wsrun) as a dependency, which is a great tool for running commands across multiple workspaces.
+
+I have also created a [Gatsby plugin](../../plugins/source-dev-to) for sourcing content from dev.to that is based on [this plugin](https://github.com/geocine/gatsby-source-dev).
 
 Last year I used my existing WordPress-site and Gatsby to generate a static HTML export of the old content before I cancelled that hosting account. That site is maintained at https://legacy.joshpress.net and incorprated into the new site.
 
@@ -71,3 +73,15 @@ The Gatsby site has two sources for content:
 
 I used the [theme blog plugin](https://www.gatsbyjs.org/packages/gatsby-theme-blog/) beacuse I wanted to get to know [theme-ui](https://) better. One bummer is that it uses theme-ui 2.x, not 3.x. 
 
+## Gatsby plugin
+
+I created a [Gatsby plugin](../../plugins/source-dev-to) for sourcing content from dev.to that is based on [this plugin](https://github.com/geocine/gatsby-source-dev).
+
+I created it to solve two problems:
+
+- I was getting 429 -- too many request -- API errors when building the site.
+- I had no experience building a [Gatsby source plugin](https://www.gatsbyjs.org/docs/creating-a-source-plugin/).
+
+Part of the plugin is a function that downloads all of the articles and writes them to JSON files. I can run that manually with `yarn source`. I guess I could also run it on a cron with Github actions. That would keep things in sync better, but it is not a pressing need.
+
+It adds the same nodes as the original plugin. Instead of sourcing them from the dev.to API, it sources them from the JSON files that are written with `yarn source`.
