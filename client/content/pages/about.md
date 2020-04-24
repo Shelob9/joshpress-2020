@@ -7,7 +7,7 @@ excerpt: Josh Pollock - JavaScript & PHP Engineer, Adult Human.
 
 Right now, I help build [Ninja Forms](https://ninjaforms.com), [Caldera Forms](https://calderaforms.com) and [SendWP](https://sendwp.com) at [Saturday Drive](https://saturdaydrive.com).
 
-Since 2014, I've been a part of the WordPress open-source community. I've contributed to WordPress core, spoken at over twenty WordCamps, including WordCamp US and have written a ton of tutorials about WordPress development. I live in Pittsburgh, PA with my wife [Alica](https://aliciajayourba.com). I collect rocks, cactuses and Star Wars toys.
+Since 2014, I've been a part of the WordPress open-source community. I've contributed to WordPress core, spoken at over twenty WordCamps, including WordCamp US and have written a ton of tutorials about WordPress development. I live in Pittsburgh, PA with my wife [Alica](http://aliciajayourba.com). I collect rocks, cactuses and Star Wars toys.
 
 This about page is a bit of a journey, beacuse Josh. I also maintain a reasonably up to date [LinkedIn](https://www.linkedin.com/in/josh-pollock-9789005/) if you want a more linear timeline.
 

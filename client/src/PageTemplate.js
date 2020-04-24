@@ -64,7 +64,13 @@ const PageTemplate = (props) => {
             })}
           >
             <Styled.p>
-              <a href="https://github.com/Shelob9/joshpress-2020">
+              <a
+                href={
+                  props.sourceLink
+                    ? props.sourceLink
+                    : "https://github.com/Shelob9/joshpress-2020"
+                }
+              >
                 View Source
               </a>
             </Styled.p>
