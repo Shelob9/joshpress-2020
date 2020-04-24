@@ -23,6 +23,12 @@ app.get("/hi", (req, res) => {
 	res.json({ hello: "Roy" });
 });
 
+//Status check
+app.get("/status", (req, res) => {
+	res.status = 200;
+	res.json({ status: "OK" });
+});
+
 // Serve the static files from the Gatsby app
 app.use(express.static(path.join(__dirname, "client/public/")));
 
