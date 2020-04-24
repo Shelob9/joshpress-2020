@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import PostsStack from "./PostsStack"
 
 //Show recent posts from a variety of sources
-const RecentPosts = () => {
+const RecentPosts = ({ total }) => {
   const data = useStaticQuery(graphql`
     {
       allBlogPost(limit: 6) {
@@ -31,7 +31,6 @@ const RecentPosts = () => {
   `)
 
   const { allBlogPost, allDevArticles } = data
-
   let recentPosts = []
   const devToPosts =
     allDevArticles.hasOwnProperty("nodes") && allDevArticles.nodes.length
@@ -68,8 +67,9 @@ const RecentPosts = () => {
   recentPosts = recentPosts.sort((a, b) => {
     return Date.parse(b.date) - Date.parse(a.date)
   })
+  const totalPosts = total ? total : 12
 
-  return <PostsStack posts={recentPosts} />
+  return <PostsStack posts={[...recentPosts.slice(0, totalPosts)]} />
 }
 
 export default RecentPosts

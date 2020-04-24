@@ -7,7 +7,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-dev`,
+      resolve: `source-dev-to`,
       options: {
         username: `shelob9`,
       },
@@ -43,6 +43,7 @@ module.exports = {
   siteMetadata: {
     title: `Josh Pollock`,
     author: `Josh Pollock`,
+    siteUrl: `https://joshpress.net`,
     description: `Just another internet website.`,
     social: [
       {

@@ -1,11 +1,10 @@
 import React from "react"
 import { css, Styled } from "theme-ui"
-import Header from "gatsby-theme-blog/src/components/header"
 import RecentPosts from "../RecentPosts"
-
+import PageTemplate from "../PageTemplate"
 export const OtherWritingSection = () => (
   <section id="writing-other">
-    <Styled.h2>I've Also Written Quite A Bit About Writing Code</Styled.h2>
+    <Styled.h3>Other Places I've Written About Code</Styled.h3>
     <dl>
       <dt>Torque Mag: A WPEngine Publication</dt>
       <dd>
@@ -33,25 +32,18 @@ export const OtherWritingSection = () => (
 )
 export default ({ children, ...props }) => {
   return (
-    <Styled.root>
-      <div>
-        <Header title={"Writing"} {...props} />
-        <div
-          css={css({
-            maxWidth: `container`,
-            mx: `auto`,
-            px: 3,
-            py: 4,
-          })}
-        >
+    <PageTemplate
+      {...props}
+      Content={() => (
+        <React.Fragment>
           <section id="writing">
-            <Styled.h2>I've Written Quite A Bit About Writing Code</Styled.h2>
+            <Styled.h2>Writing</Styled.h2>
             <Styled.h3>Recent Posts</Styled.h3>
             <RecentPosts />
           </section>
           <OtherWritingSection />
-        </div>
-      </div>
-    </Styled.root>
+        </React.Fragment>
+      )}
+    />
   )
 }

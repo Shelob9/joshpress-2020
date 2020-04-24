@@ -8,7 +8,7 @@ export default function PostsStack({ posts }) {
         listStyle: "none",
         display: "grid",
         gridGap: 3,
-        gridTemplateColumns: "repeat(auto-fit, minmax(256px, 1fr))",
+        gridTemplateColumns: " repeat(auto-fit, minmax(256px, 1fr))",
         m: 0,
         px: 3,
         py: 4,
@@ -16,7 +16,7 @@ export default function PostsStack({ posts }) {
     >
       {posts.map((post) => (
         <li key={post.id}>
-          <Styled.h2
+          <Styled.h3
             css={css({
               m: 0,
             })}
@@ -50,7 +50,7 @@ export default function PostsStack({ posts }) {
                 {post.title}
               </a>
             )}
-          </Styled.h2>
+          </Styled.h3>
           <small sx={{ fontWeight: "bold" }}>
             {new Date(post.date).toLocaleDateString()}
           </small>
