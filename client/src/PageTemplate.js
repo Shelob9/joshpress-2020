@@ -15,12 +15,11 @@ const PageTemplate = (props) => {
   }
 
   const [colorMode] = useColorMode()
-  const isDark = colorMode === `dark`
+  const color = colorMode !== `light` ? white : black
   const a = {
-    color: isDark ? white : black,
-    textDecoration: "dotted",
+    color,
+    textDecoration: "none",
     ":hover,:focus": {
-      color: isDark ? "#fffcfc" : "#595959",
       textDecoration: "underline",
     },
   }
