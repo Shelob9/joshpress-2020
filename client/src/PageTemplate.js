@@ -34,6 +34,7 @@ const PageTemplate = (props) => {
             px: 3,
             py: 4,
             a,
+            code: { color: black },
           })}
         >
           {Content ? (
