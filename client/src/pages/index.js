@@ -10,6 +10,7 @@ export default ({ children, ...props }) => {
       {...props}
       page={page}
       pageName={"index"}
+      seoTitle={"Josh Pollock"}
       AfterContent={() => (
         <React.Fragment>
           <section id="writing">

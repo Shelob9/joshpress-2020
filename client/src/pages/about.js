@@ -4,7 +4,14 @@ import PageTemplate from "../PageTemplate"
 export default ({ children, ...props }) => {
   const page = props.data.allFile.nodes[0].childMarkdownRemark
 
-  return <PageTemplate {...props} page={page} pageName={"about"} />
+  return (
+    <PageTemplate
+      {...props}
+      page={page}
+      pageName={"about"}
+      seoTitle={"About Josh Pollock"}
+    />
+  )
 }
 
 export const query = graphql`

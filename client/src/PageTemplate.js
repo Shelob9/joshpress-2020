@@ -1,7 +1,7 @@
 import React from "react"
 import { css, Styled, useColorMode } from "theme-ui"
 import Header from "gatsby-theme-blog/src/components/header"
-
+import SEO from "gatsby-theme-blog/src/components/seo"
 const white = "#fffcfc"
 const black = "#585858"
 const PageTemplate = (props) => {
@@ -10,6 +10,7 @@ const PageTemplate = (props) => {
   const subTitle = page ? page.frontmatter.subTitle : null
   const __html = page ? page.html : null
   const name = page ? page.name : null
+  const seoTitle = props.seoTitle ? props.seoTitle : title
   function createMarkup() {
     return { __html }
   }
@@ -23,9 +24,17 @@ const PageTemplate = (props) => {
       textDecoration: "underline",
     },
   }
+
+  const seoProps = {
+    description: subTitle,
+    lang: "en",
+    keywords: ["Josh Pollock", "WordPress", "Laravel", "React"],
+    title: seoTitle,
+  }
   return (
     <React.Fragment>
       <Styled.root>
+        <SEO {...seoProps} />
         <Header {...props} />
         <div
           css={css({

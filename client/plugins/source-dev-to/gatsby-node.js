@@ -20,9 +20,18 @@ exports.sourceNodes = async ({ actions }, { username }) => {
       encoding: "utf8",
     })
 
+    const blogPost = {
+      title: article.title,
+      tags: article.tags || [],
+      slug: article.slug,
+      date: article.readable_publish_date,
+      keywords: article.tags || [],
+    }
+
     const gatsbyNode = {
       article: Object.assign({}, article),
       id: `${article.id}`,
+      blogPost,
       parent: "__SOURCE__",
       children: [],
       internal: {
