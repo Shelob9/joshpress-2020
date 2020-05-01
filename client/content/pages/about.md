@@ -5,7 +5,7 @@ subTitle: I make commerical open source products, mainly with WordPress.
 excerpt: Josh Pollock - JavaScript & PHP Engineer, Adult Human.
 ---
 
-Right now, I help build [Ninja Forms](https://ninjaforms.com), [Caldera Forms](https://calderaforms.com) and [SendWP](https://sendwp.com) at [Saturday Drive](https://saturdaydrive.com).
+Right now, I help build the WordPress plugins [Ninja Forms](https://ninjaforms.com), [Caldera Forms](https://calderaforms.com) and [SendWP](https://sendwp.com) at [Saturday Drive](https://saturdaydrive.com). I'm also working on [Imaginary Shapes](https://imaginaryshapes.com/), a privacy-first habit forming app built with React and [Blockstack](https://blockstack.org).
 
 Since 2014, I've been a part of the WordPress open-source community. I've contributed to WordPress core, spoken at over twenty WordCamps, including WordCamp US and have written a ton of tutorials about WordPress development. I live in Pittsburgh, PA with my wife [Alica](http://aliciajayourba.com). I collect rocks, cactuses and Star Wars toys.
 
