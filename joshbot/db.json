@@ -1,3 +1,2611 @@
 {
-	"neato": []
+  "tweets": [
+    {
+      "id": 1256638716011044900,
+      "content": "@Michele_Butcher @learnwithmattc @royboy789 Strong Agreement. Thank you for sharing this excellent idea with the internet.",
+      "time": "Sat May 02 17:36:31 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": true,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": true,
+        "strong": true
+      }
+    },
+    {
+      "id": 1256632771272990700,
+      "content": "RT @physicsmatt: You can be mad, but that’s no excuse to be inefficient with propellant.",
+      "time": "Sat May 02 17:12:54 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256630973904629800,
+      "content": "RT @studio_hungry: ➡️ I'm looking for a new role ⬅️\n\n- Frontend dev\n- Remote\n- React, Hooks, Redux, Gatsby, JAMstack, TypeScript, CSS-in-JS…",
+      "time": "Sat May 02 17:05:45 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256624766082969600,
+      "content": "@mpmike @royboy789 @zackkatz @shopDisney @MNUFC @metathreads I ordered from @SockFancy and @Coheed as well. I think. Whatever, I need to build up a supply and they are all pre-order.",
+      "time": "Sat May 02 16:41:05 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256602910835847200,
+      "content": "@mpmike @royboy789 Those are nice. I will get order to. Thank you for sharing.\n\nI'm waiting on some reusable ones from a few places. Not sure if they are the right vibe. Those Star Wars ones will work though.",
+      "time": "Sat May 02 15:14:15 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": true,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256601938176684000,
+      "content": "@learnwithmattc @royboy789 Matt, I love you and my group texting friends.",
+      "time": "Sat May 02 15:10:23 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256600816779251700,
+      "content": "@royboy789 I can't wear white though, it makes the fact that I spilled my coffee to obvious.",
+      "time": "Sat May 02 15:05:55 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256600617558118400,
+      "content": "@learnwithmattc @royboy789",
+      "time": "Sat May 02 15:05:08 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256598816213655600,
+      "content": "This looks neato. https://t.co/lzc9T5yr5n",
+      "time": "Sat May 02 14:57:58 +0000 2020",
+      "neato": {
+        "is": true,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256596481966067700,
+      "content": "I feel like I need to get some masks that work with my clothes better. https://t.co/2AjIha9DZX",
+      "time": "Sat May 02 14:48:42 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256594505651847200,
+      "content": "I super appreciate this detailed analysis mapping out the structure of the WordPress open source project structure and how stakeholders relate. https://t.co/wnrGuhHyqI",
+      "time": "Sat May 02 14:40:51 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256593647560253400,
+      "content": "@jcasabona @andmiddleton @mattmedeiros @Mapk @JosephaHaden &lt;aside&gt; Mark - this is an excellent analysis, thank you for taking the time. It's very useful and very well done&lt;/aside&gt;\nIt happens a lot. I think beacuse this unfair bias exists, we should be going out of our way to highlight the site builder/ no code skills as important.",
+      "time": "Sat May 02 14:37:26 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": true,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256581707349844000,
+      "content": "@jcasabona @andmiddleton @mattmedeiros @Mapk @JosephaHaden Strong agreement with Joe here. I think recognizing those site builder skills as a set of skills is important. I feel like that competency gets erased, maybe beacuse it's not coding.",
+      "time": "Sat May 02 13:49:59 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": true,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256578119118569500,
+      "content": "@desrosj @humorandanimals @paulyhoward @MitchMossRadio This is the finest content on the internet.",
+      "time": "Sat May 02 13:35:44 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256578023094210600,
+      "content": "RT @humorandanimals: this dogs reaction to her new trampoline has made my day\n(poskit16k via viralhog) https://t.co/mH1SqvAPFV",
+      "time": "Sat May 02 13:35:21 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256573499700908000,
+      "content": "@usefathom Gatsby",
+      "time": "Sat May 02 13:17:22 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256571098235383800,
+      "content": "RT @Cavalorn: Anyway, I just saw Boris claiming that he 'timed the lockdown to coincide with the peak of the pandemic in the UK' or somethi…",
+      "time": "Sat May 02 13:07:50 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256351651750969300,
+      "content": "@benUNC @YouTooCanBeGuru @GiveWP Thank you for sharing yourself with the internet.",
+      "time": "Fri May 01 22:35:50 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": true,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256308783707349000,
+      "content": "RT @wordcamprocny: Do you use #WordPress and want to share your knowledge with others? Apply to speak at #wcroc on Saturday, October 3! htt…",
+      "time": "Fri May 01 19:45:29 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256306157226020900,
+      "content": "@benUNC @YouTooCanBeGuru @GiveWP Ben, kindly refrain from arguing with math.",
+      "time": "Fri May 01 19:35:03 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256284311382302700,
+      "content": "@AvosFromMexico I am sorry, but I habe not yet had a chance to review your #guacamole recipe. Thank you for sharing your recipe generator with the internet.",
+      "time": "Fri May 01 18:08:15 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": true,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256283654512353300,
+      "content": "RT @alfiekohn: 3) “The concept of the ‘personal carbon footprint’ was popularized by BP in a $100+ million media campaign that, research ha…",
+      "time": "Fri May 01 18:05:38 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256283468260167700,
+      "content": "I am 🌮 https://t.co/62FUqvzKrf",
+      "time": "Fri May 01 18:04:54 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256217132515364900,
+      "content": "RT @jamesjgutierrez: I mean...\n#whiteprivilege https://t.co/L1ZQ0uVwRX",
+      "time": "Fri May 01 13:41:18 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256054539272302600,
+      "content": "RT @cindynorth1: https://t.co/gYu3qmM82k",
+      "time": "Fri May 01 02:55:13 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256054119950946300,
+      "content": "@mpmike That's super neato.",
+      "time": "Fri May 01 02:53:33 +0000 2020",
+      "neato": {
+        "is": true,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1256009441746583600,
+      "content": "RT @learnwithmattc: We're hiring for a Community Outreach Coordinator. I'm excited to welcome someone who loves WP and Nonprofits and @Give…",
+      "time": "Thu Apr 30 23:56:01 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255953221807374300,
+      "content": "@royboy789 @loopconf It's still got that click. https://t.co/ZsHItjjfkI",
+      "time": "Thu Apr 30 20:12:37 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255935289144590300,
+      "content": "RT @AndrewFeinberg: This is the best weather forecast in the history of television news https://t.co/LhmoJDCkbZ",
+      "time": "Thu Apr 30 19:01:21 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255879616335618000,
+      "content": "@devonbl That looks really cool. Thank you for sharing it with the internet.",
+      "time": "Thu Apr 30 15:20:08 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": true,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255876859822256000,
+      "content": "RT @MyDadIsOld: this is my all time favorite trolley problem https://t.co/832fynzjqc",
+      "time": "Thu Apr 30 15:09:11 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255865139519262700,
+      "content": "@Shpigford That looks beautiful.",
+      "time": "Thu Apr 30 14:22:36 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255659097984204800,
+      "content": "@learnwithmattc @ShawnHooper @royboy789 That's one of my favorite photos of Roy. Thank you for sharing it with the internet.",
+      "time": "Thu Apr 30 00:43:52 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": true,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255619789332062200,
+      "content": "@learnwithmattc @royboy789",
+      "time": "Wed Apr 29 22:07:40 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255618956108464000,
+      "content": "RT @roxiqt: When this is over, you have no obligation to be the same person you were before. Maybe, you want to change careers. Maybe, you…",
+      "time": "Wed Apr 29 22:04:22 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255618905072156700,
+      "content": "RT @McDwayne: Thinking about running open office hours for helping folks with CommandLine, Scripting, Drupal or WordPress issues.  Would an…",
+      "time": "Wed Apr 29 22:04:09 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255573789498323000,
+      "content": "@sjbrinley @zackkatz Exactly. I'd let my dryer notify my phone, but my microwave stops sounding like it's microwaving when it's done, that's sufficient.",
+      "time": "Wed Apr 29 19:04:53 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255573231588827100,
+      "content": "@zackkatz The microwave door is as annoying as any other microwave. It's not the ultimate microwave, hell it doesn't have trivection, but it's very good.",
+      "time": "Wed Apr 29 19:02:40 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255511786767495200,
+      "content": "@zackkatz Like, there is a screen, why do I need the beep? That's two responses to one action. When the foods done, the natural microwave noise and the light stops. Chill with the beeps",
+      "time": "Wed Apr 29 14:58:30 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255511169097511000,
+      "content": "@zackkatz We got one that lets you opt out of beeps. It's amazing.",
+      "time": "Wed Apr 29 14:56:03 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255510722563489800,
+      "content": "@hugo__df @0aveRyan @Alpine_JS Neato. Thanks for sharing.",
+      "time": "Wed Apr 29 14:54:17 +0000 2020",
+      "neato": {
+        "is": true,
+        "strong": false
+      },
+      "thanks": {
+        "is": true,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255464773023662000,
+      "content": "@beattyml1 Sort of. Testing with React testing library is a step in that direction.",
+      "time": "Wed Apr 29 11:51:41 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255318307294580700,
+      "content": "RT @WoofWoof_TV: Don’t forget to wash your paws, everypawdy!\n(three_daxie_trouble / IG) https://t.co/bC13vuFGaf",
+      "time": "Wed Apr 29 02:09:41 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255287724862562300,
+      "content": "@xkcd Thank you for sharing your webcomics with the internet. They are wonderful.",
+      "time": "Wed Apr 29 00:08:10 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": true,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255279109489537000,
+      "content": "RT @emmawage: I have nothing to promote but please stay home, wash your hands, and stop publishing charts with default Excel formatting",
+      "time": "Tue Apr 28 23:33:56 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255213400168300500,
+      "content": "RT @tychesoftwares: We are hiring WordPress Developers!\n\nExperience: 2 years &amp; above\n\nExcellent Knowledge of Core PHP, WordPress Developmen…",
+      "time": "Tue Apr 28 19:12:49 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255212358001197000,
+      "content": "This looks neato. https://t.co/KOOzNFkZGn",
+      "time": "Tue Apr 28 19:08:41 +0000 2020",
+      "neato": {
+        "is": true,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255186049355133000,
+      "content": "RT @J_ManPrime21: Government has spent $5 trillion through 4 bills and you still have to pay your rent on no income lol",
+      "time": "Tue Apr 28 17:24:09 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255185142387220500,
+      "content": "This looks neato. https://t.co/TDZfUudmSz",
+      "time": "Tue Apr 28 17:20:32 +0000 2020",
+      "neato": {
+        "is": true,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255170871628529700,
+      "content": "RT @VeilBroadband: @AdrianRMG Hello Adrian, Lewis here. Madison has told me about your problem with your poor connection and the strange sy…",
+      "time": "Tue Apr 28 16:23:50 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255170871628529700,
+      "content": "RT @VeilBroadband: @AdrianRMG Hello Adrian, Lewis here. Madison has told me about your problem with your poor connection and the strange sy…",
+      "time": "Tue Apr 28 16:23:50 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255170065437208600,
+      "content": "RT @LoopdiLou: Presented without comment. https://t.co/9LQnFpLsfG",
+      "time": "Tue Apr 28 16:20:38 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255169618563514400,
+      "content": "@bamadesigner @gatsbyjs Yah, it's a huge rabbit hole. IFrame is such a good way to work around it.",
+      "time": "Tue Apr 28 16:18:51 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255153362703655000,
+      "content": "@bamadesigner @gatsbyjs If you're deploying the WordPress site outside of a VPN or local, totally doable. You can use Gravity Forms REST API to get configuration for form, make your own form, and submit form against or use the WPGraphql integration. I'm not sure if that's worth it.",
+      "time": "Tue Apr 28 15:14:15 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255151582376677400,
+      "content": "@learnwithmattc @royboy789",
+      "time": "Tue Apr 28 15:07:11 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1255125983973249000,
+      "content": "@thewpbuffs This looks great. Congrats on the new look, I love it",
+      "time": "Tue Apr 28 13:25:28 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254964871025897500,
+      "content": "RT @rjs: Time to think about usage metrics differently.\n\nIf Toyota was a software company, they would count how many times people press the…",
+      "time": "Tue Apr 28 02:45:16 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254958488704495600,
+      "content": "RT @rjs: The key is to measure a function the product performs, not the number of times an event happens.\n\nThis example clicked it for me:…",
+      "time": "Tue Apr 28 02:19:54 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254944471227289600,
+      "content": "@TheDavidJohnson @dimensionmedia I hope to see it coming soon. Vuldrable people are going to have to self-isolate for awhile, we need something new",
+      "time": "Tue Apr 28 01:24:12 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254888330669559800,
+      "content": "RT @sarah_edo: 🔥 Are you using WordPress and migrating to the JAMstack? I wrote up a case study about how Smashing Magazine moved to JAMsta…",
+      "time": "Mon Apr 27 21:41:07 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254887917081723000,
+      "content": "RT @djrothkopf: We can and must do better.  Nothing will illustrate that more than the economic catastrophe we will live through in the nex…",
+      "time": "Mon Apr 27 21:39:28 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254887206134702000,
+      "content": "@xtiechirinos How is that not working.",
+      "time": "Mon Apr 27 21:36:39 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254858421137846300,
+      "content": "@marybaum @dimensionmedia I think immersive VR would really. But that's not something you can do at the price point of a Switch, or Zoom subscription yet.",
+      "time": "Mon Apr 27 19:42:16 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254853199296475100,
+      "content": "@dimensionmedia Honestly, if we don't hold a WordCamp inside of a video game at some point, what are we even doing?",
+      "time": "Mon Apr 27 19:21:31 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254833761549779000,
+      "content": "@ajitbohra @Alpine_JS @tailwindcss I bet it smells like a magic, frosted forest.",
+      "time": "Mon Apr 27 18:04:17 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254820639367716900,
+      "content": "@visakanv It's a power over move. Resisting it is a power of move.",
+      "time": "Mon Apr 27 17:12:08 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254819453960945700,
+      "content": "@ryangjchandler @Alpine_JS Will do. Thanks for building this.",
+      "time": "Mon Apr 27 17:07:25 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": true,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254819252411998200,
+      "content": "@0aveRyan @Alpine_JS I played with the example. Super neato. The verbosity of React + Typescript makes me happy, but not everything needs that. I want a go to for simple stuff",
+      "time": "Mon Apr 27 17:06:37 +0000 2020",
+      "neato": {
+        "is": true,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254798754504487000,
+      "content": "RT @ElieNYC: Deprived of their chance to broadcast @realDonaldTrump live, cable news networks are furiously trying to get in touch with Joh…",
+      "time": "Mon Apr 27 15:45:10 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254796488695320600,
+      "content": "This looks neato. @Alpine_JS has a minimalism that reminds me why I loved ng1 and Vue. I like this idea for a decoupled store. https://t.co/ngdx7yZJhW",
+      "time": "Mon Apr 27 15:36:10 +0000 2020",
+      "neato": {
+        "is": true,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254772200562757600,
+      "content": "@EliW Also, less good.",
+      "time": "Mon Apr 27 13:59:39 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254772118060851200,
+      "content": "@EliW It's an interesting approach to load balancing. It's just serial, instead of parallel.",
+      "time": "Mon Apr 27 13:59:20 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254752284019511300,
+      "content": "RT @CityPGH: @JennaHarner11 You’re excused for being new.",
+      "time": "Mon Apr 27 12:40:31 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254601089766297600,
+      "content": "@vinayp10 @hnshah @KateKendall Most weeks, my call time is 2-5 hours right now, but not last week. I think no calls is close to possible in some cases and would be an interesting experience.",
+      "time": "Mon Apr 27 02:39:43 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254595033732395000,
+      "content": "@DavidWells @hashim_warren @shellscape @mjackson @kylemathews @remix_run @asynchio @InboundNow Yes it's rare. I hope to see more of it as a way to support developers who like making things that save everyone else time. I love what @laravelphp is doing with Spark, Nova, Vapor, etc. and hope that leads to normalizing this model more.",
+      "time": "Mon Apr 27 02:15:39 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254590694468907000,
+      "content": "@hashim_warren @shellscape @DavidWells @mjackson @kylemathews @remix_run @asynchio 👆. I forget sometimes, beacuse of the bubbles I'm in, that making making a living from selling free software, is still a novel concept to most people. I'm really grateful it feels normal to me.",
+      "time": "Mon Apr 27 01:58:25 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254587600217800700,
+      "content": "@JosephaHaden Strong agreement.",
+      "time": "Mon Apr 27 01:46:07 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": true,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254549011639472000,
+      "content": "RT @david_perell: I love when people call their shots. \n\nWalt Disney's original business plan from 1958 is my favorite example.\n\nTV ✔️\nMusi…",
+      "time": "Sun Apr 26 23:12:47 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254543095955427300,
+      "content": "@ChrisWiegman @learnwithmattc @royboy789 Hello",
+      "time": "Sun Apr 26 22:49:17 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254530940065534000,
+      "content": "RT @theblacktechie: RT COVID Job Assistance:\n\nI have someone in South Carolina (willing to relocate) seeking a #CyberSecurity Analyst posit…",
+      "time": "Sun Apr 26 22:00:58 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254530578382237700,
+      "content": "@HansenShaylee @royboy789 I recommend it. Picking out the box was also fun.",
+      "time": "Sun Apr 26 21:59:32 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254527403709300700,
+      "content": "@learnwithmattc @royboy789",
+      "time": "Sun Apr 26 21:46:55 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254521855765106700,
+      "content": "@jnovakfl @royboy789 That looks delightful. Ginger and peach sounds great.",
+      "time": "Sun Apr 26 21:24:52 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254491317431939000,
+      "content": "@jnovakfl @royboy789 Enjoy your tea organizing, it's fun.\n\nThis is what I got. I'm with their tumeric &amp; ginger teas and their nightime and calm teas. I had the green matcha tea after organizing and it was real good.\n\nhttps://t.co/lzR4KHo07X",
+      "time": "Sun Apr 26 19:23:32 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254489904974872600,
+      "content": "@jessekanner @herebox @royboy789 I stick to React-based solutions as much as possible. Gatsby and Next are both great, very different in a good way. My sites are on @getRender or GitHub pages. I'm also playing with Ziet Now.",
+      "time": "Sun Apr 26 19:17:55 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254460236053823500,
+      "content": "@Drawn2Intellect I thank public schools for busing me out of my very white neighborhood for elementary school. I grew up in a pretty nice neighborhood and went to a really good school next to housing projects. We didn't really talk about the vast inequalities there, but it made me curious.",
+      "time": "Sun Apr 26 17:20:01 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254457434187477000,
+      "content": "@timdorr @mjackson @remix_run That sounds really nice. I wish that I got access to the GitHub repos when buying Laravel packages. I know that until recently, GitHub's pricing would have made this very expensive to impliment.",
+      "time": "Sun Apr 26 17:08:53 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254453898129129500,
+      "content": "@mjackson @remix_run I'm really grateful for react-router and everything else from @ReactTraining I'm looking forward to buying Remix.",
+      "time": "Sun Apr 26 16:54:50 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254450920118722600,
+      "content": "@JackEllis @samselikoff Oh totally. I've made most of my money as a WordPress plugin developer, this is a very real tension. I didn't consider that ratio for way too long. I think it really hurt my decision making in the business and in development.",
+      "time": "Sun Apr 26 16:43:00 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254441037336100900,
+      "content": "@JackEllis @samselikoff 👆 Some much this. I wish I had paid less attention to the noise from these folks who are clearly not my customer. They're never going to be happy, I deserve to be.",
+      "time": "Sun Apr 26 16:03:44 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254439443555143700,
+      "content": "@fevered Very satisfying.",
+      "time": "Sun Apr 26 15:57:24 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254439122757996500,
+      "content": "@royboy789 @jessekanner I have a few Gatsby sites for my writing/ personal blog. I'm tinkering with a bunch of stuff. I started building a JAMStack-ish CMS once or twice last year.",
+      "time": "Sun Apr 26 15:56:07 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254435047328882700,
+      "content": "I got a bunch of assorted tea bags. This meant I had to re-organize my teas, which I was so exciting. https://t.co/YEYw4cGHdn",
+      "time": "Sun Apr 26 15:39:56 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254433101322817500,
+      "content": "@jessekanner @royboy789 Yes.",
+      "time": "Sun Apr 26 15:32:12 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254426676227948500,
+      "content": "This is such a useful way to understand React. #🥔 https://t.co/1b5PSDasK3",
+      "time": "Sun Apr 26 15:06:40 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254408193654038500,
+      "content": "@keepsitrustic @visakanv Exactly.",
+      "time": "Sun Apr 26 13:53:13 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254407078699040800,
+      "content": "RT @YouTooCanBeGuru: Check out this book: \"Dysfunctional Love Songs: Affirmations for the Hopeless Romantic\" https://t.co/wfsUU5nIrN https:…",
+      "time": "Sun Apr 26 13:48:47 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254220230706049000,
+      "content": "RT @zeldman: @feather Do screen readers dream of electric emoji?",
+      "time": "Sun Apr 26 01:26:19 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254207408475439000,
+      "content": "@gameism This is delightful. Thank you for sharing it with the internet.",
+      "time": "Sun Apr 26 00:35:22 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": true,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254207190770081800,
+      "content": "RT @gameism: I don’t know who needs to see this, but my buddy John got a babby Yoda and served it some chicky nuggies. https://t.co/nnwWIfY…",
+      "time": "Sun Apr 26 00:34:30 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254207190770081800,
+      "content": "RT @gameism: I don’t know who needs to see this, but my buddy John got a babby Yoda and served it some chicky nuggies. https://t.co/nnwWIfY…",
+      "time": "Sun Apr 26 00:34:30 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254204120778576000,
+      "content": "RT @AyoCaesar: lol https://t.co/8ddpRDj6sl",
+      "time": "Sun Apr 26 00:22:19 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254195723404484600,
+      "content": "RT @vgr: @danlistensto Robots",
+      "time": "Sat Apr 25 23:48:56 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254190982993793000,
+      "content": "@visakanv The Obelisk Gate - Book 2 of an excellent dystopian sci-fi series.\nhttps://t.co/3TEhoO18A8",
+      "time": "Sat Apr 25 23:30:06 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254087305477972000,
+      "content": "RT @cmclymer: For diehards, it's not about Trump being \"fit\" for office. It's about them being right in their worldview. We can talk all da…",
+      "time": "Sat Apr 25 16:38:08 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254084245355724800,
+      "content": "RT @tesfayehours: https://t.co/FcEXymhBza",
+      "time": "Sat Apr 25 16:25:58 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254083766953422800,
+      "content": "@ATLUTD @mpmike @atlutdpup I love everything about all sports teams having dogs now.",
+      "time": "Sat Apr 25 16:24:04 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254063992470986800,
+      "content": "@bamadesigner @xtiechirinos Low color contrast is something, I in fact, can not handle.",
+      "time": "Sat Apr 25 15:05:29 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1254063348683092000,
+      "content": "@marshal This looks very nice. Thank you for sharing it on the internet.",
+      "time": "Sat Apr 25 15:02:56 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": true,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253854402332549000,
+      "content": "RT @idealblakfemale: NORMALIZE BEING SINCERELY FOND OF SOMEONE AND HAVING SINCERE CRITIQUES OF THEM AT THE SAME TIME",
+      "time": "Sat Apr 25 01:12:39 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253854213932748800,
+      "content": "@nickadamstv @mpmike https://t.co/xbCV4MicrG",
+      "time": "Sat Apr 25 01:11:54 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253845888834965500,
+      "content": "This looks neato https://t.co/8atUT3PqIA",
+      "time": "Sat Apr 25 00:38:49 +0000 2020",
+      "neato": {
+        "is": true,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253845008878309400,
+      "content": "@xtiechirinos If only this fact, was not the facts.",
+      "time": "Sat Apr 25 00:35:20 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253825930604183600,
+      "content": "RT @ambertamblyn: 2020 owes Elizabeth Warren an apology.",
+      "time": "Fri Apr 24 23:19:31 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253800475624906800,
+      "content": "@jon_bossenger Building stuff with developer tools like Laravel, Gatsby, Next spoiled me.",
+      "time": "Fri Apr 24 21:38:22 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253799258811179000,
+      "content": "@jessekanner That's a good one.",
+      "time": "Fri Apr 24 21:33:32 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253798776638255000,
+      "content": "@mpmike THE INTERNET CAN'T HANDLE ME.",
+      "time": "Fri Apr 24 21:31:37 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253788031506661400,
+      "content": "@learnwithmattc @royboy789 https://t.co/yWH5AE1Hjp",
+      "time": "Fri Apr 24 20:48:55 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253781004348805000,
+      "content": "🔥 `php artisan make:model Todo -a` 🔥 Model, Migration, Controller and factory. 🤯\n\nLearned about it here:\nhttps://t.co/cjOMS6emh4",
+      "time": "Fri Apr 24 20:21:00 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253738155519467500,
+      "content": "@learnwithmattc @royboy789",
+      "time": "Fri Apr 24 17:30:44 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253655800641458200,
+      "content": "RT @aurooba: Currently booking #WordPress projects for June (if we get along, and you're in a rush, I can potentially do May!). Whether it'…",
+      "time": "Fri Apr 24 12:03:29 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253529095918555100,
+      "content": "RT @omnicolor: I doubt anyone is looking to hire right now, but myself and a lot of my really great coworkers are currently looking for sof…",
+      "time": "Fri Apr 24 03:40:00 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253526982014505000,
+      "content": "RT @rickhanlonii: @sebmck https://t.co/uBSU7nuinu",
+      "time": "Fri Apr 24 03:31:36 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253476781895680000,
+      "content": "@benUNC @bamadesigner @jasonbahl Always troll responsibly.",
+      "time": "Fri Apr 24 00:12:07 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253441033284829200,
+      "content": "RT @bjornjohansen: So, I’m looking for a freelance developer that’s very experienced with Laravel. Who do I, or you, know that could be int…",
+      "time": "Thu Apr 23 21:50:04 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253379039580094500,
+      "content": "@ryandonsullivan @CroixHaug It's, truely inspiring. An inspiration to us all to be inspired by when we need inspiration.",
+      "time": "Thu Apr 23 17:43:44 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253377235299508200,
+      "content": "Strongest agreement https://t.co/JsvLMPPXnS",
+      "time": "Thu Apr 23 17:36:34 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": true,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253377024460292000,
+      "content": "@ryandonsullivan Minimilism gets big results.",
+      "time": "Thu Apr 23 17:35:43 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253376765961162800,
+      "content": "@ajitbohra @NickHamze That looks neato.",
+      "time": "Thu Apr 23 17:34:42 +0000 2020",
+      "neato": {
+        "is": true,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253335057466445800,
+      "content": "@trishacodes You're welcome. Glad it helped. Let me know if you have any questions.",
+      "time": "Thu Apr 23 14:48:58 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253330687098159000,
+      "content": "@benUNC @sunsanddesign @ChrisEdwardsCE @royboy789 @bamadesigner Then you're like a million years old.",
+      "time": "Thu Apr 23 14:31:36 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253319164296663000,
+      "content": "@benUNC @sunsanddesign @ChrisEdwardsCE @royboy789 @bamadesigner What's your age in WordPress years?",
+      "time": "Thu Apr 23 13:45:48 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253300419725537300,
+      "content": "@learnwithmattc @royboy789",
+      "time": "Thu Apr 23 12:31:19 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253293597895655400,
+      "content": "@AlexStandiford Accurate",
+      "time": "Thu Apr 23 12:04:13 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253144220740849700,
+      "content": "This looks neato. https://t.co/WNd5cq7aJK",
+      "time": "Thu Apr 23 02:10:39 +0000 2020",
+      "neato": {
+        "is": true,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253136928825884700,
+      "content": "https://t.co/fyEbnbVvWc",
+      "time": "Thu Apr 23 01:41:40 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253122399459049500,
+      "content": "@wpdevlife @ryelle Yah, it looks less overwhelming to me that way.",
+      "time": "Thu Apr 23 00:43:56 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253120999467421700,
+      "content": "Fractal — A react app structure for infinite scale https://t.co/4F43dLWB0G #react #redux #structure via @Hackernoon",
+      "time": "Thu Apr 23 00:38:22 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253065994152575000,
+      "content": "RT @tessak22: Hey #WordPress friends! I am looking for someone who has a design eye and some front-end technical chops to spruce up a commu…",
+      "time": "Wed Apr 22 20:59:48 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1253017776748445700,
+      "content": "RT @montague90: How fucking tall are you?!",
+      "time": "Wed Apr 22 17:48:12 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1252993251210072000,
+      "content": "@iamrorysilva @afmcdnL @marcdingena @aschmelyun @ladyleet Please don't, it's bad.",
+      "time": "Wed Apr 22 16:10:45 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1252970993968205800,
+      "content": "@beattyml1 Excellent. Sounds entertaining.",
+      "time": "Wed Apr 22 14:42:18 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1252969874667733000,
+      "content": "@beattyml1 Could be entertaining for a bit",
+      "time": "Wed Apr 22 14:37:51 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1252943263696330800,
+      "content": "@dimensionmedia $b1 = $this-&gt;getBuildingOne()\n\nSee super clear, no need for documentation.",
+      "time": "Wed Apr 22 12:52:07 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1252934515430998000,
+      "content": "Start your day right.\n\nStart your day with turtle facts. https://t.co/XJiHmH2GaQ",
+      "time": "Wed Apr 22 12:17:21 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1252793164420862000,
+      "content": "@100GBodhisattva @SamSykesSwears This is an excellent answer.",
+      "time": "Wed Apr 22 02:55:40 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1252792893640708000,
+      "content": "@SamSykesSwears Kylo Ren, The Force Awakens.",
+      "time": "Wed Apr 22 02:54:36 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1252790979897233400,
+      "content": "@xtiechirinos @vimes1984 That sounds like an amazing service. As an owner of a washing machine and dryer, I am super jealous.\n\nAlso, yes, my mom was spot on there. That insight is going to haunt me for years.",
+      "time": "Wed Apr 22 02:46:59 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1252787266327654400,
+      "content": "\"A 12-Line JavaScript Function to Get All Combinations of an Object's Properties\" by @nas5w #DEVcommunity https://t.co/MyZPjeNuZe",
+      "time": "Wed Apr 22 02:32:14 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    },
+    {
+      "id": 1252731860150628400,
+      "content": "RT @abigaildisney: OK, I've been holding my tongue on the theory that a pandemic is no time to be calling people out on anything other than…",
+      "time": "Tue Apr 21 22:52:04 +0000 2020",
+      "neato": {
+        "is": false,
+        "strong": false
+      },
+      "thanks": {
+        "is": false,
+        "strong": false
+      },
+      "strongAgreement": {
+        "is": false,
+        "strong": false
+      }
+    }
+  ],
+  "thanks": [
+    {
+      "id": 1256638716011044900,
+      "strong": false
+    },
+    {
+      "id": 1256602910835847200,
+      "strong": false
+    },
+    {
+      "id": 1256593647560253400,
+      "strong": false
+    },
+    {
+      "id": 1256351651750969300,
+      "strong": false
+    },
+    {
+      "id": 1256284311382302700,
+      "strong": false
+    },
+    {
+      "id": 1255879616335618000,
+      "strong": false
+    },
+    {
+      "id": 1255659097984204800,
+      "strong": false
+    },
+    {
+      "id": 1255510722563489800,
+      "strong": false
+    },
+    {
+      "id": 1255287724862562300,
+      "strong": false
+    },
+    {
+      "id": 1254819453960945700,
+      "strong": false
+    },
+    {
+      "id": 1254207408475439000,
+      "strong": false
+    },
+    {
+      "id": 1254063348683092000,
+      "strong": false
+    }
+  ],
+  "strongAgreements": [],
+  "metas": [
+    {
+      "key": "lastTweetRun",
+      "value": 1252731860150628400
+    }
+  ]
 }
