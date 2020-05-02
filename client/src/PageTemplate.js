@@ -2,8 +2,10 @@ import React from "react"
 import { css, Styled, useColorMode } from "theme-ui"
 import Header from "gatsby-theme-blog/src/components/header"
 import SEO from "gatsby-theme-blog/src/components/seo"
+import { Link } from "gatsby"
 const white = "#fffcfc"
 const black = "#585858"
+
 const PageTemplate = (props) => {
   const { page, AfterContent, Content } = props
   const title = page ? page.frontmatter.title : null
@@ -66,22 +68,57 @@ const PageTemplate = (props) => {
           )}
           <footer
             css={css({
+              maxWidth: `container`,
+              textAlign: `center`,
               mx: `auto`,
               px: 3,
               py: 4,
               a,
             })}
           >
+            <a
+              css={css({
+                display: `inline`,
+                mr: 2,
+              })}
+              href={
+                props.sourceLink
+                  ? props.sourceLink
+                  : "https://github.com/Shelob9/joshpress-2020"
+              }
+            >
+              View Source
+            </a>
+            <Link
+              css={css({
+                display: `inline`,
+                mr: 2,
+              })}
+              to={"/privacy"}
+            >
+              Privacy
+            </Link>
+            <Link
+              css={css({
+                display: `inline`,
+                mr: 2,
+              })}
+              to={"/about"}
+            >
+              About
+            </Link>
+            <Link
+              css={css({
+                display: `inline`,
+                mr: 2,
+              })}
+              to={"/contact"}
+            >
+              Contact
+            </Link>
             <Styled.p>
-              <a
-                href={
-                  props.sourceLink
-                    ? props.sourceLink
-                    : "https://github.com/Shelob9/joshpress-2020"
-                }
-              >
-                View Source
-              </a>
+              (c) 2020 Josh Pollock. License:{" "}
+              <a href="https://opensource.org/licenses/MIT">MIT</a>
             </Styled.p>
           </footer>
         </div>
