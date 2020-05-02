@@ -13,3 +13,9 @@ I tweet a lot, it's a fun game. I have a few moves I enjoy overusing:
 - "Strong Agreement" - For things I agree with. I might track these, but I don't want to get too attatched to my own agreement with myself.
 
 There are a few others, that are just jokes and I'm not sure I want to track how invested I am in those.
+
+## Twittter Client
+
+## Database
+
+For the "database" of this project, I'm using [lodb](https://www.npmjs.com/package/lodb) to manage JSON files that are commit to the database.

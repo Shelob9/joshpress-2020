@@ -9063,6 +9063,19 @@ lodash@4.17.15, lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.12
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
+lodash@~2.4.1:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
+  integrity sha1-+t2DS5aDBz2hebPq5tnA0VBT9z4=
+
+lodb@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/lodb/-/lodb-0.5.2.tgz#bb302c2b309ca7a334b94d07bf81e8020109ff50"
+  integrity sha1-uzAsKzCcp6M0uU0Hv4HoAgEJ/1A=
+  dependencies:
+    lodash "~2.4.1"
+    steno "^0.2.1"
+
 log-update@^3.0.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/log-update/-/log-update-3.4.0.tgz#3b9a71e00ac5b1185cc193a36d654581c48f97b9"
@@ -13216,6 +13229,11 @@ static-site-generator-webpack-plugin@^3.4.2:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+
+steno@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/steno/-/steno-0.2.1.tgz#2669073babbe8bcfd6ee7c5e5e942fbfaf39b9d7"
+  integrity sha1-JmkHO6u+i8/W7nxeXpQvv685udc=
 
 stream-browserify@^2.0.1:
   version "2.0.2"
