@@ -19,17 +19,19 @@ Source for JoshPress.net.
   - `node index.js`
 - Rewrite content from dev.to
   - `yarn source`
+- Run a joshbot script
+  - `yarn joshbot`
 
 ## Overview
 
-This repo has two components:
+This repo has two or mote components:
 
 - `client`
-
   - A Gatsby site
-
 - `server`
   - Express server.
+- `joshbot`
+  - A bot that tracks Josh things.
 
 The server is responsible for:
 

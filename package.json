@@ -6,7 +6,8 @@
 	"private": true,
 	"workspaces": [
 		"client",
-		"client/plugins/source-dev-to"
+		"client/plugins/source-dev-to",
+		"joshbot"
 	],
 	"scripts": {
 		"start": "yarn wsrun start",
@@ -14,7 +15,8 @@
 		"serve": "yarn build:client && node index.js",
 		"build": "yarn build:client",
 		"build:client": "yarn workspace client build",
-		"source": "node client/plugins/source-dev.js"
+		"source": "node client/plugins/source-dev.js",
+		"joshbot": "yarn workspace joshbot node"
 	},
 	"keywords": [],
 	"author": "Josh Pollock",
