@@ -30,4 +30,4 @@ The database records if a tweet matches the search and if it is a "strong" match
 For the "database" of this project, I'm using [lowdb](https://www.npmjs.com/package/lowdb) to manage JSON files that are commit to the file system with git.
 . At first I was using using [lodb](https://www.npmjs.com/package/lodb) beacuse I got confused between lodb and lowdb and one is a fork of the othe rand ahhhh JavaScript.
 
-Honestly, I'm just trying to write this fast so I can rewrite it better with a technology I understand less.
+Honestly, I'm just trying to write this fast so I can rewrite it better with a technology I understand less. But, I eventually ended up with a huge json file with my last few thousand tweets with some basic classification.

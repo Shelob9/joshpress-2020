@@ -4,9 +4,13 @@ const adapter = new FileSync("db.json");
 const db = low(adapter);
 db.defaults({
 	tweets: [],
-	thanks: [],
-	strongAgreements: [],
-	metas: [{ key: "lastTweetRun", value: "0" }],
+	runTotals: [],
+	metas: [
+		{
+			key: "lastTweetRun",
+			value: 1256638716011044900,
+		},
+	],
 }).write();
 
 module.exports = db;

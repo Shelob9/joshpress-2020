@@ -62,13 +62,14 @@ function isStrongAgreement(text) {
 
 const apiParams = {
 	screen_name: "josh412",
-	count: 50,
+	count: 200,
 	exclude_replies: false,
 	include_rts: true,
 	//https://stackoverflow.com/a/40454382
 	tweet_mode: "extended",
 };
 const backwards = true;
+
 if (backwards) {
 	//older tweets then last indexed tweet
 	apiParams["max_id"] = lastTweetId;
@@ -76,56 +77,63 @@ if (backwards) {
 	//newer tweets then last indexed tweet
 	apiParams["since_id"] = lastTweetId;
 }
-client.get("statuses/user_timeline", apiParams, function (error, tweets) {
-	if (!error) {
-		tweets.map((tweet) => {
-			const content = tweet.full_text;
-			const id = tweet.id;
-			let neato = isNeato(content);
-			let thanks = isThanks(content);
-			let strongAgreement = isStrongAgreement(content);
-			db.get("tweets")
+
+function indexTweets() {
+	let totals = {
+		strongAgreement: 0,
+		thanks: 0,
+		neato: 0,
+	};
+	client.get("statuses/user_timeline", apiParams, function (error, tweets) {
+		if (!error) {
+			if (!tweets || !tweets.length) {
+				console.log("No tweets found");
+				return false;
+			}
+			tweets.map((tweet) => {
+				const content = tweet.full_text;
+				const id = tweet.id;
+				let neato = isNeato(content);
+				let thanks = isThanks(content);
+				let strongAgreement = isStrongAgreement(content);
+				if (neato.is) totals.neato++;
+				if (strongAgreement.is) totals.strongAgreement++;
+				if (thanks.is) totals.thanks++;
+				db.get("tweets")
+					.push({
+						id,
+						content,
+						time: tweet.created_at,
+						url: tweet.url,
+						neato,
+						thanks,
+						strongAgreement,
+					})
+					.write();
+			});
+			//get first and last tweet ids
+			const first = tweets.shift().id;
+			const last = tweets.pop().id;
+			db.get("metas")
+				.find({ key: "lastTweetRun" })
+				.assign({ value: last })
+				.write();
+			db.get("runTotals")
 				.push({
-					id,
-					content,
-					time: tweet.created_at,
-					url: tweet.url,
-					neato,
-					thanks,
-					strongAgreement,
+					first,
+					last,
+					totals,
 				})
 				.write();
 
-			if (neato.is) {
-				db.get("neato")
-					.push({
-						id,
-						strong: neato.strong,
-					})
-					.write();
-			}
-			if (thanks.is) {
-				db.get("thanks")
-					.push({
-						id,
-						strong: thanks.strong,
-					})
-					.write();
-			}
-			if (strongAgreement.is) {
-				db.get("strongAgreement")
-					.push({
-						id,
-						strong: strongAgreement.strong,
-					})
-					.write();
-			}
-		});
-		//const first = tweets.shift();
-		const last = tweets.pop();
-		db.get("metas")
-			.find({ key: "lastTweetRun" })
-			.assign({ value: last.id })
-			.write();
-	}
-});
+			console.log(totals);
+			return true;
+		} else {
+			console.log(error);
+			return false;
+		}
+	});
+}
+(() => {
+	[...Array(10).keys()].forEach(indexTweets);
+})();
