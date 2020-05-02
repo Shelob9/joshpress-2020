@@ -1,4 +1,5 @@
 require("dotenv").config();
+const path = require("path");
 const client = require("./twitterClient");
 const db = require("./db");
 //ID of last tweet indexed
@@ -90,9 +91,10 @@ function indexTweets() {
 				console.log("No tweets found");
 				return false;
 			}
+
 			tweets.map((tweet) => {
 				const content = tweet.full_text;
-				const id = tweet.id;
+				const id = tweet.id_str;
 				let neato = isNeato(content);
 				let thanks = isThanks(content);
 				let strongAgreement = isStrongAgreement(content);
@@ -117,13 +119,6 @@ function indexTweets() {
 			db.get("metas")
 				.find({ key: "lastTweetRun" })
 				.assign({ value: last })
-				.write();
-			db.get("runTotals")
-				.push({
-					first,
-					last,
-					totals,
-				})
 				.write();
 
 			console.log(totals);

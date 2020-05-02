@@ -2,5 +2,5 @@
 
 ## Commands
 
-- Find and store "this is neato" tweets
+- Index Josh's tweets and classify as "neato", "strongAgreement" or "thanks"
   - `yarn neato`

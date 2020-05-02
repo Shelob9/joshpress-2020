@@ -19,6 +19,13 @@ module.exports = {
         path: `${__dirname}/content/pages/`,
       },
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/joshbot-data`,
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-plugin-sitemap`,
     {

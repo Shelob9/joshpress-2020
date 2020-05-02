@@ -31,3 +31,111 @@ For the "database" of this project, I'm using [lowdb](https://www.npmjs.com/pack
 . At first I was using using [lodb](https://www.npmjs.com/package/lodb) beacuse I got confused between lodb and lowdb and one is a fork of the othe rand ahhhh JavaScript.
 
 Honestly, I'm just trying to write this fast so I can rewrite it better with a technology I understand less. But, I eventually ended up with a huge json file with my last few thousand tweets with some basic classification.
+
+## Using JSON Data In Gatsby
+
+Now that I have this big JSON file, I need to use it in my Gatsby site.
+
+### Sourcing and Querying JSON With Gatsby
+
+To make my JSON "database" available, I used the plugin[gatsby-transformer-json](https://www.gatsbyjs.org/packages/gatsby-transformer-json/) to generate queries from the directory with my database.
+
+This allows for queries like this one, that gets all tweets that are classifed as strong agreemens and thank yous:
+
+```graphql
+{
+	allJoshbotDataJson(
+		filter: {
+			tweets: {
+				elemMatch: {
+					thanks: { is: { eq: true } }
+					strongAgreement: { is: { eq: true } }
+				}
+			}
+		}
+	) {
+		nodes {
+			tweets {
+				id
+				content
+			}
+		}
+	}
+}
+```
+
+Or this one for all weak neatos:
+
+```graphql
+{
+	allJoshbotDataJson(
+		filter: {
+			tweets: {
+				elemMatch: {
+					thanks: { is: {} }
+					strongAgreement: { is: {} }
+					neato: { strong: { eq: false }, is: { eq: true } }
+				}
+			}
+		}
+	) {
+		nodes {
+			tweets {
+				id
+				content
+			}
+		}
+	}
+}
+```
+
+### Creating Gatsby Pages With JSON Sources
+
+> [Documentation I learned from](https://www.gatsbyjs.org/docs/creating-and-modifying-pages/)
+
+I was able to create a page, for each weak neato, with a gatsby-node like this:
+
+```js
+const path = require("path");
+exports.createPages = async ({ graphql, actions }) => {
+	const { createPage } = actions;
+
+	const neatos = await graphql(`
+		query {
+			allJoshbotDataJson(
+				filter: {
+					tweets: {
+						elemMatch: {
+							thanks: { is: {} }
+							strongAgreement: { is: {} }
+							neato: { strong: { eq: false }, is: { eq: true } }
+						}
+					}
+				}
+			) {
+				nodes {
+					tweets {
+						id
+						content
+					}
+				}
+			}
+		}
+	`);
+	console.log(
+		"Total Neatos: ",
+		neatos.data.allJoshbotDataJson.nodes[0].tweets.length
+	);
+
+	neatos.data.allJoshbotDataJson.nodes[0].tweets.forEach((tweet) => {
+		createPage({
+			path: `/neato/${tweet.id}`,
+			component: path.resolve(`./src/templates/neato.js`),
+			context: {
+				id: tweet.id,
+				content: tweet.content,
+			},
+		});
+	});
+};
+```

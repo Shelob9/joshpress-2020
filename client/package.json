@@ -18,6 +18,8 @@
     "gatsby-source-dev": "^0.1.4",
     "gatsby-source-devto": "^1.1.0",
     "gatsby-theme-blog": "^1.3.30",
+    "gatsby-transformer-json": "^2.4.0",
+    "gatsby-transformer-lowdb": "^0.0.7",
     "gatsby-transformer-remark": "^2.7.2",
     "http-proxy-middleware": "^1.0.3",
     "react": "^16.12.0",
