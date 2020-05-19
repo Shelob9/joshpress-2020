@@ -20,3 +20,4 @@ This might all be madeness. Maybe [sed](https://www.geeksforgeeks.org/sed-comman
 ## Imposter Plugin
 * [source](https://github.com/TypistTech/imposter-plugin)
 * [Suggested in WordPress AMP Plugin](https://github.com/ampproject/amp-wp/issues/1867#issuecomment-499672594)
+* [Example in wp-cloudflare-guard](https://github.com/TypistTech/wp-cloudflare-guard/blob/master/composer.json#L90-L107)
