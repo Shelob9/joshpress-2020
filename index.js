@@ -23,6 +23,11 @@ app.get("/hi", (req, res) => {
 	res.json({ hello: "Roy" });
 });
 
+
+app.get( '/cv', (req,res) => {
+	res.redirect(301, 'https://docs.google.com/document/d/11aWg3N7ySk6D-luegGdLT6QIFUC7GoiabUsQW6a_wcA/export?format=pdf');
+});
+
 //Status check
 app.get("/status", (req, res) => {
 	res.status = 200;
@@ -36,6 +41,7 @@ app.use(express.static(path.join(__dirname, "client/public/")));
 app.get("*", (req, res) => {
 	res.sendFile(path.join(__dirname + "/client/public/index.html"));
 });
+
 
 //Start on 5000.
 const port = process.env.PORT || 5000;
