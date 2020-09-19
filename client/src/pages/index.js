@@ -15,9 +15,37 @@ export default ({ children, ...props }) => {
         <React.Fragment>
           <section id="writing">
             <Styled.h2>I've Written Quite A Bit About Writing Code</Styled.h2>
-            <Styled.h3>Recent Posts</Styled.h3>
-            <RecentPosts total={4} />
-            <Styled.a href={"/writing"}>More</Styled.a>
+            <ul>
+              <li>
+                <Styled.a href={"/writing"}>Recent Published Posts</Styled.a>
+              </li>
+              <li>
+                <Styled.a href={"https://garden.joshpress.net"}>
+                  Digital Garden: Notes and Clippings
+                </Styled.a>
+              </li>
+              <li>
+                <Styled.a
+                  href={"https://react-wordpress-testing.joshpress.net"}
+                >
+                  React Testing In And Around WordPress
+                </Styled.a>
+              </li>
+              <li>
+                <Styled.a
+                  href={"https://codesandbox.io/s/react-context-tldr-bey3y"}
+                >
+                  React Context: TL;DR
+                </Styled.a>
+              </li>
+              <li>
+                <Styled.a
+                  href={"https://pantheon.io/blog/typescript-wordpress-basics"}
+                >
+                  Basic Typescript For WordPress Developers
+                </Styled.a>
+              </li>
+            </ul>
           </section>
         </React.Fragment>
       )}

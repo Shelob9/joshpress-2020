@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-
+const fs = require("fs");
 const app = express();
 
 const hasLegacyPost = (path) => {
@@ -23,9 +23,21 @@ app.get("/hi", (req, res) => {
 	res.json({ hello: "Roy" });
 });
 
+app.get("/josh/bio", (req, res) => {
+	res.status = 200;
+	let bio = __dirname + "/client/content/pages/about.md";
+	//let md = fs.readFileSync(__dirname + "/client/content/pages/about.md");
+	res.json({
+		//md,
+		bio,
+	});
+});
 
-app.get( '/cv', (req,res) => {
-	res.redirect(301, 'https://docs.google.com/document/d/11aWg3N7ySk6D-luegGdLT6QIFUC7GoiabUsQW6a_wcA/export?format=pdf');
+app.get("/cv", (req, res) => {
+	res.redirect(
+		301,
+		"https://docs.google.com/document/d/11aWg3N7ySk6D-luegGdLT6QIFUC7GoiabUsQW6a_wcA/export?format=pdf"
+	);
 });
 
 //Status check
@@ -41,7 +53,6 @@ app.use(express.static(path.join(__dirname, "client/public/")));
 app.get("*", (req, res) => {
 	res.sendFile(path.join(__dirname + "/client/public/index.html"));
 });
-
 
 //Start on 5000.
 const port = process.env.PORT || 5000;
