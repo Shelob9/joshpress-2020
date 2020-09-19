@@ -103,9 +103,18 @@ const PageTemplate = (props) => {
                 display: `inline`,
                 mr: 2,
               })}
+              to={"/writing"}
+            >
+              Posts
+            </Link>
+            <Link
+              css={css({
+                display: `inline`,
+                mr: 2,
+              })}
               to={"/about"}
             >
-              About
+              About writing
             </Link>
             <Link
               css={css({
