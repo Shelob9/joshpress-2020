@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "commander": "^5.0.0",
     "query-string": "^6.12.1",
     "shelljs": "^0.8.3"
