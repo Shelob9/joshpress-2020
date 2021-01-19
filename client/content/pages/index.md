@@ -7,7 +7,7 @@ subTitle: JavaScript & PHP Engineer, Friendly Nerd.
 
 I make commerical open source products and teach people how. Friendly nerd for PHP, Javascript, ecology, crypto, caffeine, music, Laravel, React, Docker, WordPress & sci-fi. Collecting information on the peer 2 peer future.
 
-Right, now I work at at [Saturday Drive](https://SaturdayDrive.com), building WordPress-adjacent web applications, mainly with Laravel and React. I also help build many WordPress plugins.
+Right, now I am working on [Digital Garden Builder](https://docs.digitalgardenbuilder.app/) for fun and work at [Saturday Drive](https://SaturdayDrive.com), building WordPress-adjacent web applications, mainly with Laravel and React. I also help build many WordPress plugins.
 
 ## About Me
 

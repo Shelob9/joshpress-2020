@@ -5,7 +5,7 @@ subTitle: I make commerical open source products, mainly with WordPress.
 excerpt: Josh Pollock - JavaScript & PHP Engineer, Adult Human.
 ---
 
-Right now, I help build the WordPress plugins [Ninja Forms](https://ninjaforms.com), [Caldera Forms](https://calderaforms.com) and [SendWP](https://sendwp.com) at [Saturday Drive](https://saturdaydrive.com). I'm also working on [Imaginary Shapes](https://imaginaryshapes.com/), a privacy-first habit forming app built with React and [Blockstack](https://blockstack.org).
+Right now, I help build the WordPress plugins [Ninja Forms](https://ninjaforms.com), [Caldera Forms](https://calderaforms.com) and [SendWP](https://sendwp.com) at [Saturday Drive](https://saturdaydrive.com). I'm also working on  on [Digital Garden Builder](https://docs.digitalgardenbuilder.app/), a social thinking and writing tool.
 
 Since 2014, I've been a part of the WordPress open-source community. I've contributed to WordPress core, spoken at over twenty WordCamps, including WordCamp US and have written a ton of tutorials about WordPress development. I live in Pittsburgh, PA with my wife [Alica](http://aliciajayourba.com). I collect rocks, cactuses and Star Wars toys.
 
@@ -36,5 +36,7 @@ Today, my focus at work is on helping the engineering team responsible for Ninja
 I've been sharing what I've learned about Gitlab CI, React with TypeScript, WordPress block development and other topics on [DEV](https://dev.to/shelob9). I'm also writing [a small ebook on JavaScript testing in and around WordPress.](https://react-wordpress-testing.joshpress.net/)
 
 ## Pull Requests Welcome
+
+Looking to work with me? [Get in touch](mailto:jpollock412@gmail.com)
 
 This site is open source. [Click here to suggest an edit to this page](https://github.com/Shelob9/joshpress-2020/edit/master/client/content/pages/about.md) -- it's [written in markdown](https://www.markdownguide.org/cheat-sheet/).
