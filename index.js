@@ -40,6 +40,11 @@ app.get("/cv", (req, res) => {
 	);
 });
 
+app.get("/slides/js-testing", (res) => {
+	res.redirect(
+		"https://shelob9.github.io/testing-javascript-in-and-around-wordpress"
+	);
+});
 //Status check
 app.get("/status", (req, res) => {
 	res.status = 200;
