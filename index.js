@@ -42,6 +42,7 @@ app.get("/cv", (req, res) => {
 
 app.get("/slides/js-testing", (res) => {
 	res.redirect(
+		301,
 		"https://shelob9.github.io/testing-javascript-in-and-around-wordpress"
 	);
 });
